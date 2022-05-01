@@ -1,0 +1,27 @@
+.header {
+  background-color: seagreen;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main {
+  padding: 40px 0;
+  background-color: black;
+  color: white;
+}
+
+.timeline {
+  width: 50%;
+}
+
+.timeline .timeline-item {
+  width: 50%;
+  padding: 0 40px;
+  box-sizing: border-box;
+  margin-bottom: -130px;
+  position: relative;
+  outline: 1px solid blue;
+}
