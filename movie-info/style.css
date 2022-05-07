@@ -39,8 +39,8 @@ body {
 .content h1::after {
   content: '';
   display: block;
-  width: 100%;
-  padding-top: 30%;
+  width: 70%;
+  padding-top: 20%;
   background-image: url(./images/title.png);
   background-size: contain;
   background-repeat: no-repeat;
