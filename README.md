@@ -52,4 +52,10 @@ table 태그로 만든 캘린더
 
 <br>
 
-### Timeline
+### Movie Info
+
+HTML과 CSS를 이용해 만든 영화 상세 페이지
+
+[DEMO](https://plutoin.github.io/mini-projects/movie-info/index.html)
+
+![127 0 0 1_5500_movie-info_index html](https://user-images.githubusercontent.com/66389585/167263802-674b26e7-58dd-4ca6-a332-f07fe1d66b3a.png)
