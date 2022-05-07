@@ -1,0 +1,138 @@
+body {
+  background-color: #222;
+  color: #999;
+}
+
+.ir {
+  display: block;
+  overflow: hidden;
+  font-size: 0;
+  line-height: 0;
+  text-indent: -9999px;
+}
+
+.wrapper {
+  display: block;
+  margin: 100px auto 100px;
+  width: 80%;
+}
+
+.header {
+  width: 100%;
+  padding-top: 55%;
+  background-image: url(./images/cover.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px 20px 0 0;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  margin-top: -60px;
+  gap: 60px;
+  padding: 0 40px 40px;
+  border-radius: 20px;
+  background: linear-gradient(0deg, black 80%, rgba(0,0,0,0.5) 93%, rgba(0,0,0,0) 100%);
+}
+
+.content h1::after {
+  content: '';
+  display: block;
+  width: 100%;
+  padding-top: 30%;
+  background-image: url(./images/title.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.content p {
+  font-size: 14px;
+  line-height: 1.4rem;
+}
+
+.cont h3 {
+  margin-bottom: 15px;
+  color: white;
+  font-weight: 700;
+}
+
+.cont-genre li {
+  display: inline-block;
+  margin-bottom: 5px;
+  background: #222;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.cont-ratings {
+  margin: 30px 0;
+}
+
+.ratings {
+  width: 240px;
+  overflow: hidden;
+}
+
+.ratings::before {
+  content: ' ';
+  display: block;
+  background-position: left bottom;
+  width: 0;
+}
+
+.ratings,
+.ratings::before {
+  background-image: url(./images/star.png);
+  height: 48px;
+  background-size: 240px 96px;
+}
+
+.ratings_10::before {
+  width: 20%;
+}
+
+.ratings_20::before {
+  width: 40%;
+}
+
+.ratings_30::before {
+  width: 60%;
+}
+
+.ratings_40::before {
+  width: 80%;
+}
+
+.ratings_50::before {
+  width: 100%;
+}
+
+.cont-casts li {
+  display: inline-block;
+  margin-left: -20px;
+}
+
+.cont-casts li:first-child {
+  margin-left: 0;
+}
+
+.cont-casts img {
+  width: 60px;
+  border: 5px solid black;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 720px) {
+  .content {
+    display: block;
+  }
+  .info {
+    margin-bottom: 30px;
+  }
+  .content h1::after {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
