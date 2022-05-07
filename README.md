@@ -58,4 +58,4 @@ HTML과 CSS를 이용해 만든 영화 상세 페이지
 
 [DEMO](https://plutoin.github.io/mini-projects/movie-info/index.html)
 
-![127 0 0 1_5500_movie-info_index html](https://user-images.githubusercontent.com/66389585/167263802-674b26e7-58dd-4ca6-a332-f07fe1d66b3a.png)
+![127 0 0 1_5500_movie-info_index html (1)](https://user-images.githubusercontent.com/66389585/167263962-769c8d9f-4b18-43cc-8e5f-c7a4cc4ba52a.png)
