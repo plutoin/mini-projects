@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+/* SETTINGS */
 body {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   background-color: #222;
   color: #999;
 }
 
+/* IR */
 .ir {
   display: block;
   overflow: hidden;
@@ -11,6 +17,7 @@ body {
   text-indent: -9999px;
 }
 
+/* LAYOUT */
 .wrapper {
   display: block;
   margin: 100px auto 100px;
@@ -19,7 +26,7 @@ body {
 
 .header {
   width: 100%;
-  padding-top: 55%;
+  padding-top: 50%;
   background-image: url(./images/cover.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -29,45 +36,45 @@ body {
 .content {
   position: relative;
   display: flex;
-  margin-top: -60px;
-  gap: 60px;
+  gap: 100px;
+  margin-top: -50px;
   padding: 0 40px 40px;
   border-radius: 20px;
-  background: linear-gradient(0deg, black 80%, rgba(0,0,0,0.5) 93%, rgba(0,0,0,0) 100%);
+  background: linear-gradient(0deg, black 90%, rgba(0,0,0,0.5) 95%, rgba(0,0,0,0) 100%);
 }
 
 .content h1::after {
   content: '';
   display: block;
-  width: 70%;
+  width: 60%;
   padding-top: 20%;
   background-image: url(./images/title.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.content p {
-  font-size: 14px;
+.content .txt-info {
+  font-size: 13px;
   line-height: 1.4rem;
 }
 
 .cont h3 {
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   color: white;
   font-weight: 700;
 }
 
-.cont-genre li {
+.cont-genre .txt-genre {
   display: inline-block;
   margin-bottom: 5px;
   background: #222;
   padding: 5px 10px;
   border-radius: 3px;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .cont-ratings {
-  margin: 30px 0;
+  margin: 40px 0;
 }
 
 .ratings {
@@ -84,34 +91,20 @@ body {
 
 .ratings,
 .ratings::before {
-  background-image: url(./images/star.png);
   height: 48px;
+  background-image: url(./images/star.png);
   background-size: 240px 96px;
 }
 
-.ratings_10::before {
-  width: 20%;
-}
-
-.ratings_20::before {
-  width: 40%;
-}
-
-.ratings_30::before {
-  width: 60%;
-}
-
-.ratings_40::before {
-  width: 80%;
-}
-
-.ratings_50::before {
-  width: 100%;
-}
+.ratings_10::before { width: 20%; }
+.ratings_20::before { width: 40%; }
+.ratings_30::before { width: 60%; }
+.ratings_40::before { width: 80%; }
+.ratings_50::before { width: 100%; }
 
 .cont-casts li {
   display: inline-block;
-  margin-left: -20px;
+  margin-left: -15px;
 }
 
 .cont-casts li:first-child {
@@ -119,8 +112,8 @@ body {
 }
 
 .cont-casts img {
-  width: 60px;
-  border: 5px solid black;
+  width: 50px;
+  border: 3px solid black;
   border-radius: 50%;
 }
 
