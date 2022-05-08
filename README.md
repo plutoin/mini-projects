@@ -75,7 +75,6 @@ HTML과 CSS를 이용해 만든 영화 소개 페이지
 
 [DEMO](https://plutoin.github.io/mini-projects/movie-info/index.html)
 
-### Style
 - negative margin을 통해 이미지끼리 겹치도록 구현
 - media query를 이용해 모바일에서도 최적화된 페이지를 사용할 수 있도록 함
 - 다른 페이지에서 별점을 필요에 따라 수정할 수 있도록 모듈화 진행
